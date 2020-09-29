@@ -100,7 +100,7 @@ let countdown = prayerTimes.time(for: next)
 
 ## Sunnah Times
 
-The Adhan library can also calulate Sunnah times. Given an instance of `PrayerTimes`, you can get a `SunnahTimes` struct with the times for Qiyam.
+The AKSalat library can also calulate Sunnah times. Given an instance of `PrayerTimes`, you can get a `SunnahTimes` struct with the times for Qiyam.
 
 ```swift
 if let sunnahTimes = SunnahTimes(from: todayPrayers) {
