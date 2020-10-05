@@ -29,7 +29,7 @@ import Foundation
   Customizable parameters for calculating prayer times
  */
 public struct CalculationParameters: Codable, Equatable {
-    public var method: CalculationMethod = .other
+    public var method: CalculationMethod = .moonsightingCommittee
     public var fajrAngle: Double
     public var maghribAngle: Double?
     public var ishaAngle: Double
